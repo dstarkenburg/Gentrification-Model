@@ -1,0 +1,63 @@
+{
+  "crs": "EPSG:32145 (NAD83 / Vermont, meters)",
+  "pixel_size_m": 10,
+  "rows": 938,
+  "cols": 759,
+  "origin_x_left": 438312.6523,
+  "origin_y_top": 225809.4256,
+  "row0": "north edge",
+  "value_meaning": "0 = unshaded; N = City Ward N (2024)",
+  "max_street_distance_px": 2,
+  "assignment": "each pixel within 2 px (Euclidean) of a street gets the ward containing its nearest street pixel",
+  "source": "City of Burlington VT City_Wards_2024 MapServer layer 0",
+  "regions": [
+    {
+      "id": 1,
+      "name": "Ward 1",
+      "color": "#e41a1c",
+      "pixels": 7966
+    },
+    {
+      "id": 2,
+      "name": "Ward 2",
+      "color": "#377eb8",
+      "pixels": 7105
+    },
+    {
+      "id": 3,
+      "name": "Ward 3",
+      "color": "#4daf4a",
+      "pixels": 7224
+    },
+    {
+      "id": 4,
+      "name": "Ward 4",
+      "color": "#984ea3",
+      "pixels": 12476
+    },
+    {
+      "id": 5,
+      "name": "Ward 5",
+      "color": "#ff7f00",
+      "pixels": 13055
+    },
+    {
+      "id": 6,
+      "name": "Ward 6",
+      "color": "#e6c200",
+      "pixels": 9097
+    },
+    {
+      "id": 7,
+      "name": "Ward 7",
+      "color": "#a65628",
+      "pixels": 15629
+    },
+    {
+      "id": 8,
+      "name": "Ward 8",
+      "color": "#17becf",
+      "pixels": 4213
+    }
+  ]
+}
